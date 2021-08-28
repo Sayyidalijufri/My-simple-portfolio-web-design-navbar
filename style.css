@@ -93,13 +93,13 @@ nav ul li a:hover {
 
 
 #menu-toggle input:checked~span:nth-child(4) {
-    background-color: #6070FF;
+    background-color: white;
     transform: rotate(-45deg);
     margin-top: -11px;
 }
 
 #menu-toggle input:checked~span:nth-child(3) {
-    background-color: #6070FF;
+    background-color: white;
     transform: rotate(45deg);
 }
 
@@ -129,12 +129,14 @@ nav ul li a:hover {
         display: flex;
         transition: 1s;
         visibility: visible;
+        z-index: 9999;
     }
+
     nav ul {
         position: absolute;
         right: 0;
         top: 0;
-        width: 80%;
+        width: 100vw;
         height: 100vh;
         flex-direction: column;
         align-items: center;
@@ -148,5 +150,7 @@ nav ul li a:hover {
     nav ul.active {
         transform: translateX(-1%);
         transition: 2s;
+        z-index: 999;
     }
+
 }
