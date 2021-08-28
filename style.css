@@ -9,6 +9,10 @@ body{
 }
 
 
+body.scroll-lock{
+  overflow: hidden;
+}
+
 #nav {
     display: flex;
     justify-content: space-around;
