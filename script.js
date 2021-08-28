@@ -4,6 +4,6 @@ const body = document.querySelector('body');
 
 
 menuToggle.addEventListener('click', function() {
-    nav.classList.toggle('slide')
-    body.classList.toggle('scroll-lock')
+    nav.classList.toggle('active');
+    body.classList.toggle('scroll-lock');
 });
