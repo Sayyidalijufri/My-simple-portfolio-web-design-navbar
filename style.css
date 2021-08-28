@@ -73,3 +73,12 @@ nav ul li a:hover {
     z-index: 2;
     opacity: 0;
 }
+
+#menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #6070FF;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
