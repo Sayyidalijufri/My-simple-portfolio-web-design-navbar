@@ -6,11 +6,13 @@
 
 
 
-nav{
-  display: flex;
-  justify-content: space-between;
-  margin-top: auto;
-  padding: 15px 10% 15px 10%;
+#nav {
+    display: flex;
+    justify-content: space-around;
+    color: #344563;
+    height: 50px;
+    padding-top: 10px;
+    flex-direction: row;
 }
 nav ul{
   display: flex;
