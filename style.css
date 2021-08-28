@@ -153,6 +153,7 @@ nav ul li a:hover {
         align-content: space-around;
         /* transition: 2s; */
         color: white;
+        backdrop-filter: blur(5px);
     }
 
     nav ul.active {
