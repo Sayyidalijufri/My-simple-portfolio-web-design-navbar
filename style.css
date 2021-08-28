@@ -14,6 +14,14 @@
     padding-top: 10px;
     flex-direction: row;
 }
+nav .logo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #6070FF;
+    letter-spacing: 3px;
+}
 nav ul{
   display: flex;
   width: 30%;
