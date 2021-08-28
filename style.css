@@ -104,3 +104,15 @@ nav ul li a:hover {
     transform: scale(0);
     opacity: 0;
 }
+
+
+/* responesive breakpoint */
+
+
+/* tablet */
+
+@media screen and (max-width:768px) {
+    nav ul {
+        width: 50%
+    }
+}
