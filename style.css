@@ -22,11 +22,13 @@ nav .logo {
     color: #6070FF;
     letter-spacing: 3px;
 }
-nav ul{
-  display: flex;
-  width: 30%;
-  justify-content: space-between;
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
 }
+
 
 .menu-toggle{
   display: none;
