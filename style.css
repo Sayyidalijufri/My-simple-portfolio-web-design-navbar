@@ -9,10 +9,16 @@
 nav{
   display: flex;
   justify-content: space-between;
+  margin-top: auto;
+  padding: 15px 10% 15px 10%;
 }
 nav ul{
   display: flex;
   width: 30%;
   justify-content: space-between;
+}
+
+.menu-toggle{
+  display: none;
 }
 
