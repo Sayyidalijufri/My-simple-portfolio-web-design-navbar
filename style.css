@@ -50,7 +50,14 @@ nav ul li a:hover {
   }
 
 
-.menu-toggle{
-  display: none;
-}
+/* hamburger */
 
+#menu-toggle {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    left: 0;
+    float: left;
+    justify-content: space-between;
+    position: relative;
+}
