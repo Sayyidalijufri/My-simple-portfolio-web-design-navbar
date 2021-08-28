@@ -26,8 +26,20 @@ nav ul {
     display: flex;
     list-style: none;
     width: 40%;
+    color: inherit;
     justify-content: space-between;
 }
+
+nav ul li{
+  color: inherit;
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
 
 
 .menu-toggle{
