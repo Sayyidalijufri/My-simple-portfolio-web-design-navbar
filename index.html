@@ -22,22 +22,38 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
 </head>
 
 
 <body>
     <nav id="nav">
-        <div class="logo">
+        <div class="logo"     data-aos="fade"
+                              data-aos-offset="10"
+                              data-aos-delay="50"
+                              data-aos-duration="1500"
+                              data-aos-easing="ease-in-out"
+                              data-aos-mirror="true"
+                              data-aos-once="true"
+                              data-aos-anchor-placement="top-center">
             <h4>Ali</h4>
         </div>
-        <ul>
-            <li><a href="#">Portfolio</a></li>
+        <ul>               <li><a href="#">Portfolio</a></li>
             <li><a href="#">About<a></li>
             <li><a href="#">Contact</a></li>
-
         </ul>
 
-        <div id="menu-toggle">
+        <div id="menu-toggle" data-aos="fade"
+                              data-aos-offset="10"
+                              data-aos-delay="50"
+                              data-aos-duration="1500"
+                              data-aos-easing="ease-in-out"
+                              data-aos-mirror="true"
+                              data-aos-once="true"
+                              data-aos-anchor-placement="top-center">
             <input type="checkbox" />
             <span></span>
             <span></span>
@@ -54,26 +70,53 @@
 
 
 
-
-   <section class="banner">
-     <img src="img/Profile.png" alt="avatar" class="avatar">
-     <h1>I’m<wbr> Ali <br>Glad<wbr> to<wbr> see<wbr> you!</h1>
-     <p>
-       I’m <wbr>a<wbr> software<wbr> developer!<wbr> I<wbr> can<wbr> help<wbr> you<wbr> build<wbr> a<wbr> product<wbr> , feature<wbr> or<wbr> website<wbr> Look<wbr> through <br> some<wbr> of<wbr> my<wbr> work<wbr> and<wbr> experience!<wbr> If<wbr> you<wbr> like<wbr> what<wbr> you<wbr> see<wbr> and<wbr> have<wbr> a<wbr> project<wbr> you<wbr> need <br> coded,<wbr> don’t<wbr> hestiate<wbr> to<wbr> contact me.
-     </p>
-     <div class="sci">
-     <a href="#">LET’S CONNECT</a>
-       <div class="sclink"><img src="img/twitter.png" alt="Twitter"></div>
-       <div class="sclink"><img src="img/linkedin.png" alt="Linkedin"></div>
-       <div class="sclink"><img src="img/medium.png" alt="Medium"></div>
-       <div class="sclink"><img src="img/github.png" alt="Github"></div>
-       <div class="sclink"><img src="img/angellist.png" alt="Angellist"></div>
-     </div>
+  <section class="headline bg-n0">
+        <img src="https://avatars.githubusercontent.com/u/88267951?s=400&u=999246404303cca11a579faf88a4ae2e2f711b83&v=4" alt="avatars" class="profile-image mb-12"/>
+        <h1 class="header-1 color-n800 mb-12">
+          I’m Ali,<br />Glad to see you!
+        </h1>
+        <p class="body-2 color-n600 mb-12 drop-shadow">
+          I’m a full-stack software developer! I can help you build a product
+          feature or website. Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don’t
+          hestiate to contact me.
+        </p>
+        <a href="#connect" class="body-2 bolder color-b300 mb-12 drop-shadow">
+          LET'S CONNECT
+        </a>
+        <ul class="social-media-icons">
+          <li>
+            <a href="https://www.linkedin.com/in/usmansbk/">
+            <img src="img/linkedin.png" alt="Linkedin">
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@usmansbk">
+            <img src="img/medium.png" alt="Medium">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/usmansbk">
+            <img src="img/github.png" alt="Github">
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://angel.co/u/usman-suleiman-1">
+            <img src="img/angellist.png" alt="Angellist">
+              </a>
+          </li>
+        </ul>
+      </section>
 
    </section>
    <section class="portfolio">
      <div class="snapshoot">
        <div class="left">
+       <div class="sclink"></div>
+       <div class="sclink"></div>
+       <div class="sclink"></div>
+       <div class="sclink"></div>
          <img src="img/snapshoot1.png" alt="Snapshoot">
        </div>
        <div class="right">
@@ -88,5 +131,8 @@
    </section>
 
     <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

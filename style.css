@@ -23,7 +23,6 @@ body.scroll-lock{
     flex-direction: row;
     padding: 10px 10% 10px 10%;
     align-items: center;
-
 }
 nav .logo {
     font-family: Poppins;
@@ -32,6 +31,10 @@ nav .logo {
     font-size: 18px;
     color: #6070FF;
     letter-spacing: 3px;
+}
+nav .logo:hover {
+    font-size: 19px;
+    font-weight: bolder;
 }
 nav ul {
     display: flex;
@@ -73,7 +76,10 @@ nav ul li a:hover {
     position: relative;
 }
 
-
+#menu-toggle:hover span{
+    width: 28.7px;
+    height: 3.3px;
+}
 #menu-toggle input {
     position: absolute;
     width: 40px;
@@ -106,6 +112,7 @@ nav ul li a:hover {
     margin-top: -11px;
 }
 
+
 #menu-toggle input:checked~span:nth-child(3) {
     background-color: white;
     transform: rotate(45deg);
@@ -120,8 +127,35 @@ nav ul li a:hover {
 
 /* banner */
 
-bann
+.banner img.avatar{
+  transform: translateX(-10%);
+  width: 45%;
+  clip-path: circle(35% at 59% 55%);
+}
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  justify-items: center;
+  position: static;
+  border:5px solid black;
+}
 
+ .container-banner
+
+.banner h1{
+  font-size: 150%;
+}
+.banner p{
+  font-size: 70%;
+}
+.banner .scicon{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
 /* responesive breakpoint */
 
 
@@ -129,16 +163,17 @@ bann
 
 @media screen and (max-width:768px) {
     nav ul {
-        width: 50%;
+        width: 70%;
     }
+
 }
 
 /*mobile */
 
-@media screen and (max-width:567px) {
+@media screen and (max-width:467px) {
 
 
-    #nav{
+    nav{
         padding: 0;
     }
     #menu-toggle {
@@ -160,12 +195,13 @@ bann
         justify-content: space-evenly;
         background-color: #6070FF;
         mix-blend-mode:multiply;
-        z-index: 1;
-        transform: translateX(150%);
+        z-index: 1; 
+        opacity: 1;
+        transform: translateX(100%);
         align-content: space-around;
         /* transition: 2s; */
         color: white;
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(3px);
     }
 
     nav ul li{
@@ -189,4 +225,8 @@ bann
           width: 18px;
           height: 1px;
       }
+      #menu-toggle:hover span{
+    width: 18.7px;
+    height: 1.3px;
+}
 }
