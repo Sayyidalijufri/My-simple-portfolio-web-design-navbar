@@ -201,7 +201,10 @@ li{
 
 @media screen and (max-width:467px) {
 
+.banner{
+    padding: 54px 37px;
 
+}
     nav{
         padding: 0;
     }
