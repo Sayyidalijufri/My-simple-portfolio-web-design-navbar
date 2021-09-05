@@ -160,6 +160,18 @@ nav ul li a:hover {
   margin: 12px 0px;
 }
 
+.connect-link{
+  left: 0px;
+  top: 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  margin: 0px 8px;
+}
+
 
 /* responesive breakpoint */
 
