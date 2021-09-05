@@ -18,6 +18,8 @@ menulink.forEach((link) => link.addEventListener('click', () => {
 
 function myFunction(x) {
   if (x.matches) { // If media query matches
+    nav.classList.remove('active');
+      document.querySelector('#nav #menu-toggle input').checked = false;
     body.classList.remove('scroll-lock');
   }
   else if (nav.classList.contains('active')){

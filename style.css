@@ -202,7 +202,7 @@ li{
 @media screen and (max-width:467px) {
 
 .banner{
-    padding: 54px 37px;
+    padding: 34px 17px;
 
 }
     nav{
@@ -229,7 +229,7 @@ li{
         mix-blend-mode:multiply;
         z-index: 1; 
         opacity: 1;
-        transform: translateX(100%);
+        transform: translateX(calc(100vw + 7px));
         align-content: space-around;
         /* transition: 2s; */
         color: white;
@@ -260,5 +260,17 @@ li{
       #menu-toggle:hover span{
     width: 18.7px;
     height: 1.3px;
+}
+}
+@media screen and (max-width: 67px){
+  nav ul.active li a{
+    font-size: 2px;
+    font-weight: 100;
+      }
+      #menu-toggle span{
+          height: 0.3px;
+      }
+      #menu-toggle:hover span{
+    height: 0.5px;
 }
 }
