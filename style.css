@@ -172,6 +172,16 @@ nav ul li a:hover {
   margin: 0px 8px;
 }
 
+.social-links{
+  width: 170.17px;
+  height: 20px;
+  left: 260px;
+  top: 642px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* responesive breakpoint */
 
