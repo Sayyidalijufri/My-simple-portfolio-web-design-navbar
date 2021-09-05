@@ -148,6 +148,17 @@ nav ul li a:hover {
   margin: 12px 0px;
 }
 
+.header-description{
+  left: 0px;
+  top: 134px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+  margin: 12px 0px;
+}
 
 
 /* responesive breakpoint */
