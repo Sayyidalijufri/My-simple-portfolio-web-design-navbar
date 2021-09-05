@@ -127,6 +127,15 @@ nav ul li a:hover {
 
 /* banner */
 
+.banner{
+  background-image: url("img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 916px;
+  padding: 84px 67px;
+}
+
 
 /* responesive breakpoint */
 
