@@ -11,7 +11,8 @@ menuToggle.addEventListener('click', function() {
 });
 
 menulink.forEach((link) => link.addEventListener('click', () => {
-  nav.classList.toggle('active');
+  nav.classList.remove('active');
+  body.classList.remove('scroll-lock');
   document.querySelector('#nav #menu-toggle input').checked = false;
 }));
 
